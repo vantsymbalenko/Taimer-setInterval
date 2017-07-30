@@ -1,63 +1,63 @@
-*{
-	margin:0px;
-	padding:0px;
+* {
+	margin: 0px;
+	padding: 0px
 }
 
-body{
-	background: #ff6d92 radial-gradient(circle at center,#f5b200 0,#fc636b 30%,#ff6d92 70%);
-  background-size: 300vw 300vh;
-  background-position: -100vw -120vh;
+body {
+	background: #ff6d92 radial-gradient(circle at center, #f5b200 0, #fc636b 30%, #ff6d92 70%);
+	background-size: 300vw 300vh;
+	background-position: -100vw -120vh
 }
 
-.minute, .seconds, .mseconds{
+.minutes, .seconds, .mseconds {
 	display: inline-block;
-	width:8vw;
-	
-
-}
-.clock{
-	background-color: rgb(255,255,255);
-	color: #2973B8;
+	width: 8vw
 }
 
-.seconds,.mseconds{
-	margin-left: 4vw;
+.clock {
+	background-color: rgb(255, 255, 255);
+	color: #2973B8
 }
-.taimer{
+
+.seconds, .mseconds {
+	margin-left: 4vw
+}
+
+.taimer {
 	display: block;
-	width:auto;
+	width: auto;
 	text-align: center;
-	font-size: calc(4.5rem + 6vmin);		
+	font-size: calc(4.5rem + 6vmin)
 }
 
-
-button{			
-	transition:.2s;
-	margin:0px;
-	font-size: calc(0.8rem + 2vmin) ;
-	border:2px solid #6a67ce;
-	color:#6a67ce;
+button {
+	transition: .2s;
+	margin: 0px;
+	font-size: calc(0.8rem + 2vmin);
+	border: 2px solid #6a67ce;
+	color: #6a67ce;
 	border-radius: 3px;
-	text-align:center;
-	padding:0px 13px;
+	text-align: center;
+	padding: 0px 13px;
 	height: (1.5rem + 3vmin);
-	width: 15vw;
-}
-button:hover{
-	border-color: #a177ff;
-	box-shadow: 0 0 0 3px #d0bbff;
+	width: 15vw
 }
 
-.listLap{
-	transition:.2s;
-	margin:0px auto;
-	font-size: calc(0.8rem + 2vmin) ;
-	border:2px solid #6a67ce;
-	color:#6a67ce;
+button:hover {
+	border-color: #a177ff;
+	box-shadow: 0 0 0 3px #d0bbff
+}
+
+.listLap {
+	transition: .2s;
+	margin: 0px auto;
+	font-size: calc(0.8rem + 2vmin);
+	border: 2px solid #6a67ce;
+	color: #6a67ce;
 	border-radius: 3px;
-	text-align:center;
-	padding:0px 13px;
+	text-align: center;
+	padding: 0px 13px;
 	height: calc(1.5rem + 3vmin);
 	width: 15vw;
-	background:buttonface;
+	background: buttonface
 }
